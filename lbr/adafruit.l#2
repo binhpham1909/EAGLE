@@ -43681,7 +43681,7 @@ Source: http://focus.ti.com/lit/ml/mpds029b/mpds029b.pdf / slma002.pdf</descript
 <pin name="GPIO4" x="17.78" y="2.54" length="middle" rot="R180"/>
 <pin name="RXD" x="17.78" y="5.08" length="middle" direction="in" rot="R180"/>
 <pin name="TXD" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
-<text x="0" y="2.54" size="1.778" layer="94" font="vector" ratio="12" rot="R90" align="center">ESP07</text>
+<text x="0" y="2.54" size="1.778" layer="94" font="vector" ratio="12" rot="R90" align="center">ESP12</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -55274,10 +55274,9 @@ AT42QT1070 in standalone mode has 5 inputs (guard + 4 key) and open drain output
 </deviceset>
 <deviceset name="ESP-07">
 <gates>
-<gate name="G$1" symbol="ESP8266-07" x="0" y="-2.54"/>
 </gates>
 <devices>
-<device name="" package="ESP-07">
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
